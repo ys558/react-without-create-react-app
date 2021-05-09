@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    // 不生成文件，只做类型检查
+    "noEmit": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
